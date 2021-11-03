@@ -1331,7 +1331,7 @@
                     </div>
                 </div>
                 <div class="map-canvas pt-120 md-pt-70">
-                    <iframe src="https://maps.google.com/maps?q=rstheme&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.078995447352!2d106.67867701426908!3d-6.253322462966045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbc96a014ce9%3A0xbe3b8f9532f02605!2sCV.PANDAWA%20BUMI%20RINJANI!5e0!3m2!1sid!2sid!4v1635930912025!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div> 
             </div>
             <!-- Contact Section Start -->
