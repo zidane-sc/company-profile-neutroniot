@@ -17,6 +17,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/bootstrap.min.css') }}">
         <!-- font-awesome css -->
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css') }}">
+        {{-- <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome/all.min.css') }}"> --}}
         <!-- flaticon css -->
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/fonts/flaticon.css') }}">
         <!-- animate css -->
@@ -65,15 +66,15 @@
                                    <ul class="topbar-contact">
                                         <li>
                                            <i class="flaticon-email"></i>
-                                           <a href="mailto:support@rstheme.com">support@rstheme.com</a>
+                                           <a href="mailto:marketing@neutroniot.tech"> marketing@neutroniot.tech</a>
                                         </li>
                                         <li>
                                            <i class="flaticon-call"></i>
-                                           <a href="tel:++1(990)999–5554"> +1 (990) 999–5554</a>
+                                           <a href="tel:(021) 50 123450"> (021) 50 123450</a>
                                         </li>
                                         <li>
                                            <i class="flaticon-location"></i>
-                                           05 kandi BR. New York
+                                           <a href="#rs-contact">KP.Pondok Kacang. Tangsel.</a>
                                         </li>
                                    </ul>
                                </div>
@@ -109,27 +110,18 @@
                                 <div class="col-lg-9 text-right">                                    
                                     <div class="rs-menu-area">
                                         <div class="main-menu">
-                                            <nav class="rs-menu pr-100 md-pr-0">
+                                            <nav class="rs-menu md-pr-0">
                                                 <ul id="onepage-menu" class="nav-menu">
-                                                    <li> <a href="#rs-header">Home</a></li>
+                                                    <li><a href="#rs-header">Home</a></li>
                                                     <li><a href="#rs-about">About</a></li>
                                                     <li><a href="#rs-services">Services</a></li>
-                                                    <li><a href="#rs-portfolio">Portfolio</a></li>
-                                                    <li><a href="#rs-team">Team</a></li>
-                                                    <li><a href="#rs-blog">Blog</a></li>
+                                                    <li><a href="#rs-product">Product</a></li>
+                                                    {{-- <li><a href="#rs-team">Team</a></li>
+                                                    <li><a href="#rs-blog">Blog</a></li> --}}
                                                     <li><a href="#rs-contact">Contact</a></li>
                                                 </ul> <!-- //.nav-menu -->
                                             </nav>                                        
                                         </div> <!-- //.main-menu -->
-                                        <div class="expand-btn-inner search-icon hidden-md">
-                                            <ul>
-                                                <li class="sidebarmenu-search">
-                                                    <a class="hidden-xs rs-search pr-0" data-target=".search-modal" data-toggle="modal" href="#">
-                                                        <i class="flaticon-search"></i>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>                                
                                     </div>
                                 </div>
                             </div>
@@ -196,7 +188,7 @@
                                     <li><a class="readon learn-more slider-btn" href="about.html">Free Consultation</a></li>
                                     <li>
                                         <div class="slider-video">
-                                            <a class="popup-videos" href="https://www.youtube.com/watch?v=atMUy_bPoQI">
+                                            <a class="popup-videos" href="#">
                                             <i class="fa fa-play"></i>
                                             </a>
                                         </div>
@@ -311,14 +303,18 @@
                                         We Are Increasing Business Success With Technology
                                     </h2>
                                     <div class="desc pb-35">
-                                       Over 25 years working in IT services developing software applications and mobile apps for clients all over the world.
+                                        Engaged in multi-services which was established in 2019 , such as general trading, 
+                                        cctv producement, service installation, repair of AC (Air Conditioner), and computers, 
+                                        etc., and one of the products offered is Neutron.
                                     </div>
                                     <p class="margin-0 pb-15">
-                                      We denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying.
+                                        Neutron is the brand of our company that provides IoT Solution services for all segments,
+                                        both scale industrial and medium scale. Present to meet needs customer for requests relate 
+                                        to the Internet Of Things.
                                     </p>
                                 </div>
                                 <div class="btn-part">
-                                    <a class="readon learn-more contact-us" href="#">Learn More</a>
+                                    <a class="readon learn-more contact-us" href="{{ asset('assets/pdf/Company Profile Neutron IoT.pdf') }}" target="_blank">Learn More</a>
                                 </div>
                             </div>
                         </div>
@@ -419,9 +415,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="btn-part text-center mt-65">
+                        {{-- <div class="btn-part text-center mt-65">
                             <a class="readon learn-more contact-us" href="web-development.html">View All Services</a>
-                        </div>
+                        </div> --}}
                     </div>
                     <div class="shape-part">
                         <div class="left-side">
@@ -436,7 +432,7 @@
             <!-- Services Section End -->
          
             <!-- Call Us Section Start -->
-            <div class="rs-call-us bg1 pt-120 md-pt-80">                
+            {{-- <div class="rs-call-us bg1 pt-150 md-pt-80">                
                 <div class="container">
                     <div class="row rs-vertical-middle">
                         <div class="col-lg-6">
@@ -444,7 +440,7 @@
                               <img src="{{ asset('assets/images/call-us/contact-here.png') }}" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 mt-40">
                             <div class="rs-contact-box text-center">
                                 <div class="address-item mb-25">
                                     <div class="address-icon">
@@ -452,8 +448,8 @@
                                     </div>
                                 </div>
                                 <div class="sec-title3">
-                                    <span class="sub-text">CALL US 24/7</span>
-                                    <h2 class="title">(+123) 456-9989</h2>
+                                    <span class="sub-text">CALL US</span>
+                                    <h2 class="title">(021) 50 123450</h2>
                                     <p class="desc">Have any idea or project for in your mind call us or schedule a appointment. Our representative will reply you shortly.</p>
                                 </div>
                                 <div class="btn-part mt-40 md-mb-60">
@@ -463,11 +459,11 @@
                         </div> 
                     </div>
                 </div> 
-            </div>
+            </div> --}}
             <!-- Call Us Section Start -->
 
             <!-- Counter Section Start -->
-            <div class="rs-counter main-counter-home">
+            {{-- <div class="rs-counter main-counter-home">
                  <div class="counter-top-area text-center bg2">
                      <div class="row">
                          <div class="col-lg-4 md-mb-40">
@@ -502,7 +498,7 @@
                          </div>
                      </div> 
                  </div>
-            </div>
+            </div> --}}
             <!-- Counter Section End -->
 
             <!-- Process Section Start -->
@@ -518,7 +514,7 @@
                                     </h2>
                                 </div>
                                 <div class="btn-part mt-40">
-                                    <a class="readon learn-more contact-us" href="#">Contact Us</a>
+                                    <a class="readon learn-more contact-us" href="#rs-contact">Contact Us</a>
                                 </div>
                             </div>
                         </div>
@@ -584,67 +580,76 @@
             <!-- Process Section End -->
 
             <!-- Project Section Start -->
-            <div id="rs-portfolio" class="rs-project bg5 style1 pt-120 md-pt-80">
+            <div id="rs-product" class="rs-project bg5 style1 pt-100 md-pt-80">
                 <div class="container">
                    <div class="sec-title2 text-center mb-45 md-mb-30">
-                       <span class="sub-text white-color">Project</span>
+                       <span class="sub-text white-color">Product</span>
                        <h2 class="title white-color">
-                          We Are Offering All Kinds of IT Solutions Services
+                            We Are Offering Product Internet Of Things
                        </h2>                       
                    </div>
                     <div class="rs-carousel owl-carousel" data-loop="true" data-items="3" data-margin="30" data-autoplay="true" data-hoverpause="true" data-autoplay-timeout="5000" data-smart-speed="800" data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2" data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3" data-md-device-nav="true" data-md-device-dots="false">
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/1.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px !important;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Product Design</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Waste Water Treatment</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/2.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Product Engineering</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">OEE System</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/3.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Analytic Solutions</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Billing Monitoring</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/4.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Growth Strategies</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Energy Monitoring</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/5.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Platform Integration</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Asset Management</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                         <div class="project-item">
                             <div class="project-img">
-                                <a href="#"><img src="{{ asset('assets/images/project/main-home/6.jpg') }}" alt="images"></a>
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
                             </div>
                             <div class="project-content">
-                                <h3 class="title"><a href="case-studies-style1.html">Innovative Interfaces</a></h3>
-                                <span class="category"><a href="case-studies-style1.html">IT Technology</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Material Requirement Planning</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
+                            </div>
+                        </div>
+                        <div class="project-item">
+                            <div class="project-img">
+                                <a href="#"><img style="border-radius: 8px;" src="{{ asset('assets/images/product/water2.jpeg') }}" alt="images"></a>
+                            </div>
+                            <div class="project-content">
+                                <h3 class="title"><a href="case-studies-style1.html">Enterprise Resource Planning</a></h3>
+                                <span class="category"><a href="case-studies-style1.html">IOT Technology</a></span>
                             </div>
                         </div>
                     </div>
@@ -652,10 +657,8 @@
             </div>
             <!-- Project Section End -->
 
-            
-
             <!-- Pricing section start -->
-            <div class="rs-pricing white-bg pt-255 pb-150 md-pb-80">
+            {{-- <div class="rs-pricing white-bg pt-255 pb-150 md-pb-80">
                 <div class="container">
                     <div class="sec-title2 text-center mb-45">
                         <span class="sub-text">Pricing</span>
@@ -753,11 +756,11 @@
                        </div>
                    </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- Pricing section end -->
 
             <!-- Team Section Start -->
-            <div id="rs-team" class="rs-team onepage-team change-bg pt-120 pb-120 md-pt-90 md-pb-90"> 
+            {{-- <div id="rs-team" class="rs-team onepage-team change-bg pt-120 pb-120 md-pt-90 md-pb-90"> 
                 <div class="sec-title2 text-center mb-30">
                     <span class="sub-text">Team</span>
                     <h2 class="title">
@@ -991,11 +994,11 @@
                         </div>
                     </div>
                 </div> 
-            </div>
+            </div> --}}
             <!-- Team Section End -->
 
             <!-- Testimonial Section Start -->
-            <div class="rs-testimonial main-home style2 bg5 pt-120 pb-120 md-pt-80 md-pb-80">
+            {{-- <div class="rs-testimonial main-home style2 bg5 pt-120 pb-120 md-pt-80 md-pb-80">
                 <div class="container">
                   <div class="sec-title2 text-center mb-45">
                       <span class="sub-text white-color">Testimonial</span>
@@ -1129,11 +1132,11 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- Testimonial Section End -->
 
             <!-- Blog Section Start -->
-            <div id="rs-blog" class="rs-blog pb-120 pt-120 md-pt-80 md-pb-80">
+            {{-- <div id="rs-blog" class="rs-blog pb-120 pt-120 md-pt-80 md-pb-80">
                 <div class="container">  
                     <div class="sec-title2 text-center mb-45">
                         <span class="sub-text">Blogs</span>
@@ -1249,7 +1252,7 @@
                         </div>
                      </div>
                 </div>
-            </div>
+            </div> --}}
             <!-- Blog Section End -->
 
             <!-- Contact Section Start -->
@@ -1268,7 +1271,7 @@
                                    </div>
                                    <div class="address-text">
                                         <span class="label">Email:</span>
-                                        <a href="tel:123222-8888">(123) 222-8888</a>
+                                        <a href="#">marketing@neutroniot.tech</a>
                                    </div>
                                </div>
                                <div class="address-box mb-25">
@@ -1277,7 +1280,8 @@
                                    </div>
                                    <div class="address-text">
                                        <span class="label">Phone:</span>
-                                       <a href="#">support@rstheme.com</a>
+                                       <a href="#" style="display: block !important;">(021) 50 123450</a>
+                                       <a href="#">081315448330</a>
                                    </div>
                                </div>
                                <div class="address-box">
@@ -1286,7 +1290,7 @@
                                    </div>
                                    <div class="address-text">
                                        <span class="label">Address:</span>
-                                       <div class="desc">New Jesrsy, 1201, USA</div>
+                                       <div class="desc">KP.PONDOK KACANG JL.H.CARI NO.03 RT.002 RW.005 KEL.PONDOK KACANG BARAT KEC.PONDOK AREN KOTA TANGGERANG SELATAN.</div>
                                    </div>
                                </div>
                            </div>
@@ -1429,33 +1433,35 @@
                             <div class="footer-logo mb-30">
                                 <a href="index.html"><img src="{{ asset('assets/images/logo-dark.png') }}" alt=""></a>
                             </div>
-                              <div class="textwidget pb-30"><p>Sedut perspiciatis unde omnis iste natus error sitlutem acc usantium doloremque denounce with illo inventore veritatis</p>
-                              </div>
-                              <ul class="footer-social md-mb-30">  
-                                  <li> 
-                                      <a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
-                                  </li>
+                            <div class="textwidget pb-30">
+                                <p>
+                                    CV.PANDAWA BUMI RINJANI is engaged in multi-services which was established in 2019.
+                                </p>
+                            </div>
+                            <ul class="footer-social md-mb-30">  
+                                <li> 
+                                    <a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a> 
+                                </li>
+                                <li> 
+                                    <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a> 
+                                </li>
 
-                                  <li> 
-                                      <a href="# " target="_blank"><span><i class="fa fa-pinterest-p"></i></span></a> 
-                                  </li>
-                                  <li> 
-                                      <a href="# " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
-                                  </li>
-                                                                           
-                              </ul>
+                                <li> 
+                                    <a href="# " target="_blank"><span><i class="fa fa-pinterest-p"></i></span></a> 
+                                </li>
+                                <li> 
+                                    <a href="# " target="_blank"><span><i class="fa fa-instagram"></i></span></a> 
+                                </li>
+                            </ul>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12 pl-45 md-pl-15 md-mb-30">
                             <h3 class="widget-title">IT Services</h3>
                             <ul class="site-map">
-                                <li><a href="software-development.html">Software Development</a></li>
-                                <li><a href="web-development.html">Web Development</a></li>
-                                <li><a href="case-studies-single.html">Analytic Solutions</a></li>
-                                <li><a href="cloud-and-devops.html">Cloud and DevOps</a></li>
-                                <li><a href="product-design.html">Product Design</a></li>
+                                <li><a href="#">Software Development</a></li>
+                                <li><a href="#">Web Development</a></li>
+                                <li><a href="#">Analytic Solutions</a></li>
+                                <li><a href="#">Cloud and DevOps</a></li>
+                                <li><a href="#">Product Design</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12 md-mb-30">
@@ -1463,31 +1469,26 @@
                             <ul class="address-widget">
                                 <li>
                                     <i class="flaticon-location"></i>
-                                    <div class="desc">374 FA Tower, William S Blvd 2721, IL, USA</div>
+                                    <div class="desc">KP.PONDOK KACANG JL.H.CARI NO.03 RT.002 RW.005 KEL.PONDOK KACANG BARAT KEC.PONDOK AREN KOTA TANGGERANG SELATAN.</div>
                                 </li>
                                 <li>
                                     <i class="flaticon-call"></i>
                                     <div class="desc">
-                                       <a href="tel:(+880)155-69569">(+880)155-69569</a>
+                                        <a href="#" style="display: block !important;">(021) 50 123450</a>
+                                        <a href="#">081315448330</a>
                                     </div>
                                 </li>
                                 <li>
                                     <i class="flaticon-email"></i>
                                     <div class="desc">
-                                        <a href="mailto:support@rstheme.com">support@rstheme.com</a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <i class="flaticon-clock-1"></i>
-                                    <div class="desc">
-                                        Opening Hours: 10:00 - 18:00   
+                                        <a href="#">marketing@neutroniot.tech</a>
                                     </div>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-3 col-md-12 col-sm-12">
                             <h3 class="widget-title">Newsletter</h3>
-                            <p class="widget-desc">We denounce with righteous and in and dislike men who are so beguiled and demo realized.</p>
+                            <p class="widget-desc">IoT uses many technologies and protocols to communicate with needs-based devices. technologies and protocols are Bluetooth, wireless, NFC, RFID, radio protocols, and WiFi-Direct.</p>
                             <p>
                                 <input type="email" name="EMAIL" placeholder="Your email address" required="">
                                 <em class="paper-plane"><input type="submit" value="Sign up"></em>
@@ -1499,19 +1500,21 @@
             </div>
             <div class="footer-bottom">
                 <div class="container">                    
-                    <div class="row y-middle">
-                        <div class="col-lg-6 text-right md-mb-10 order-last">
+                    <div class="row y-middle text-center">
+                        {{-- <div class="col-lg-5 text-right md-mb-10 order-last">
                             <ul class="copy-right-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="faq.html">FAQs</a></li>
+                                <li><a href="#rs-header">Home</a></li>
+                                <li><a href="#rs-about">About</a></li>
+                                <li><a href="#rs-services">Services</a></li>
+                                <li><a href="#rs-portfolio">Portfolio</a></li>
+                                <li><a href="#rs-team">Team</a></li>
+                                <li><a href="#rs-blog">Blog</a></li>
+                                <li><a href="#rs-contact">Contact</a></li>
                             </ul>
-                        </div>
-                        <div class="col-lg-6">
+                        </div> --}}
+                        <div class="col-lg-12">
                             <div class="copyright">
-                                <p>&copy; 2021 All Rights Reserved. Developed By <a href="http://rstheme.com/">RSTheme</a></p>
+                                <p>&copy; 2021 All Rights Reserved. Developed By <a href="#">Neutroniot</a></p>
                             </div>
                         </div>
                         
